@@ -1,0 +1,120 @@
+/* Réinitialisation des marges et des paddings par défaut */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Appliquer des styles au tableau */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Styler la section d'en-tête */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Styler la section de formulaire */
+header form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styler les articles dans le formulaire */
+header form article {
+  width: 70%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Styler les sélecteurs dans le formulaire */
+header form select {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Styler les sélecteurs en ligne */
+header form .select-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Styler le contenu principal */
+main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Appliquer des styles au tableau */
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Appliquer un design responsive pour les écrans plus petits */
+@media screen and (max-width: 600px) {
+  header form select {
+    width: 100%;
+  }
+}
+
+/* Styler les balises d'article */
+article {
+  margin: 10px;
+}
+
+/* Appliquer des styles supplémentaires pour une meilleure apparence */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Styler l'en-tête d'article */
+article h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Styler l'en-tête du tableau */
+th {
+  background-color: #333;
+  color: white;
+}
+
+/* Styler les lignes du tableau */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styler les lignes du tableau au survol */
+tbody tr:hover {
+  background-color: #ddd;
+}
